@@ -4,4 +4,5 @@ public enum Perfil {
     ADMINISTRADOR,
     CONSULTA,
     OPERADOR
+
 }

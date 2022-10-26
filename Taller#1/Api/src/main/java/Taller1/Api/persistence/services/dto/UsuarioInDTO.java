@@ -1,6 +1,7 @@
 package Taller1.Api.persistence.services.dto;
 
 import Taller1.Api.persistence.entity.Dependencia;
+import Taller1.Api.persistence.entity.Perfil;
 import lombok.Data;
 
 import java.util.Date;
@@ -11,5 +12,5 @@ public class UsuarioInDTO {
     private long usuarioId;
     private Date FechaNacimiento;
     private Dependencia dependencia;
-    private String[] perfil;
+    private Perfil[] perfil ;
 }

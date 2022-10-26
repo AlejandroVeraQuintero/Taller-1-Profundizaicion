@@ -26,7 +26,6 @@ public class Usuario {
     @Column(name = "dependencia")
     private Dependencia dependencia;
 
-
     @Column( name = "perfil")
     private String[] perfil;
 
